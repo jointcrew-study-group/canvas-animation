@@ -25,7 +25,7 @@ const loop = () => {
     context.arc(x, y, radius, 0, Math.PI*2)
     context.fill()
 
-    requestId = window.requestAnimationFrame(loop)
+    window.requestAnimationFrame(loop)
 }
 
 window.requestAnimationFrame(loop)
